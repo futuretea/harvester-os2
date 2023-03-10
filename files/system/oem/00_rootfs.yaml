@@ -29,6 +29,7 @@ stages:
           /var/lib/kubelet
           /var/lib/wicked
           /var/lib/longhorn
+          /var/lib/third-party
           /var/lib/cni
           /var/crash
         PERSISTENT_STATE_BIND: "true"
